@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="system font weights other than Regular or Bold" minToolsVersion="7.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="ozL-JY-LjH">
+            <rect key="frame" x="0.0" y="0.0" width="118" height="169"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xmy-Hr-MDK">
+                    <rect key="frame" x="0.0" y="118" width="118" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="qva-Wr-EMS"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" alignment="center" drawsBackground="YES" id="Bop-iX-azp">
+                        <font key="font" metaFont="systemUltraLight" size="20"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                            <color key="value" red="0.36470588235294116" green="0.76470588235294112" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField verticalHuggingPriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="6qS-xe-yyT">
+                    <rect key="frame" x="59" y="88" width="59" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="szx-mN-95a"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" alignment="center" title="ResB" drawsBackground="YES" id="8of-cl-m15">
+                        <font key="font" metaFont="systemUltraLight" size="20"/>
+                        <color key="textColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                            <color key="value" red="0.36470588240000001" green="0.76470588240000004" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField verticalHuggingPriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="R8z-d3-NIz">
+                    <rect key="frame" x="0.0" y="88" width="59" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="lhx-2X-SbI"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" alignment="center" title="ResA" drawsBackground="YES" id="enQ-tq-XJE">
+                        <font key="font" metaFont="systemUltraLight" size="20"/>
+                        <color key="textColor" red="0.097272776069999997" green="0.52578723429999996" blue="0.98539978269999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                            <color key="value" red="0.36470588240000001" green="0.76470588240000004" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="iU2-ZN-BuY">
+                    <rect key="frame" x="0.0" y="8" width="118" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="33N-g5-RK5"/>
+                    </constraints>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" state="on" alignment="center" drawsBackground="YES" id="f6f-RS-oxu">
+                        <font key="font" metaFont="systemUltraLight" size="15"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                            <color key="value" red="0.36470588235294116" green="0.76470588235294112" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oBT-WJ-km1">
+                    <rect key="frame" x="37" y="44" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Gqd-XT-hvm"/>
+                        <constraint firstAttribute="width" constant="44" id="Nnu-GD-AgA"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="Aj9-V6-odK"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="xmy-Hr-MDK" secondAttribute="trailing" id="33G-DE-sie"/>
+                <constraint firstItem="xmy-Hr-MDK" firstAttribute="top" secondItem="ozL-JY-LjH" secondAttribute="top" constant="8" id="3q2-gF-SGa"/>
+                <constraint firstItem="6qS-xe-yyT" firstAttribute="leading" secondItem="R8z-d3-NIz" secondAttribute="trailing" id="DVW-79-KpL"/>
+                <constraint firstItem="6qS-xe-yyT" firstAttribute="top" secondItem="xmy-Hr-MDK" secondAttribute="bottom" id="FiV-vE-Zu7"/>
+                <constraint firstItem="iU2-ZN-BuY" firstAttribute="leading" secondItem="ozL-JY-LjH" secondAttribute="leading" id="OI8-4u-Ga0"/>
+                <constraint firstItem="iU2-ZN-BuY" firstAttribute="top" secondItem="oBT-WJ-km1" secondAttribute="bottom" constant="8" id="WWu-wc-SKl"/>
+                <constraint firstItem="xmy-Hr-MDK" firstAttribute="leading" secondItem="oBT-WJ-km1" secondAttribute="trailing" constant="-81" id="X3z-oK-1dB"/>
+                <constraint firstAttribute="trailing" secondItem="iU2-ZN-BuY" secondAttribute="trailing" id="XHU-Ed-Bj2"/>
+                <constraint firstItem="R8z-d3-NIz" firstAttribute="leading" secondItem="oBT-WJ-km1" secondAttribute="trailing" constant="-81" id="aVW-tV-qg2"/>
+                <constraint firstItem="6qS-xe-yyT" firstAttribute="trailing" secondItem="xmy-Hr-MDK" secondAttribute="trailing" id="bOy-wc-G8U"/>
+                <constraint firstAttribute="bottom" secondItem="iU2-ZN-BuY" secondAttribute="bottom" constant="8" id="dif-NX-O4Y"/>
+                <constraint firstItem="6qS-xe-yyT" firstAttribute="width" secondItem="R8z-d3-NIz" secondAttribute="width" id="ePE-Cq-0xq"/>
+                <constraint firstItem="R8z-d3-NIz" firstAttribute="top" secondItem="xmy-Hr-MDK" secondAttribute="bottom" id="jv9-C0-8y0"/>
+                <constraint firstItem="oBT-WJ-km1" firstAttribute="leading" secondItem="ozL-JY-LjH" secondAttribute="leading" constant="37" id="l5g-gy-GkQ"/>
+                <constraint firstItem="oBT-WJ-km1" firstAttribute="centerX" secondItem="ozL-JY-LjH" secondAttribute="centerX" id="m1w-PH-BJl"/>
+                <constraint firstItem="6qS-xe-yyT" firstAttribute="height" secondItem="R8z-d3-NIz" secondAttribute="height" id="ved-YT-KA8"/>
+                <constraint firstItem="oBT-WJ-km1" firstAttribute="top" secondItem="xmy-Hr-MDK" secondAttribute="top" constant="73" id="vyX-Mo-YL2"/>
+                <constraint firstItem="xmy-Hr-MDK" firstAttribute="leading" secondItem="ozL-JY-LjH" secondAttribute="leading" id="zh9-OG-8mr"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                    <color key="value" red="0.36470588240000001" green="0.76424348350000004" blue="0.98141759630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="118" y="92.5"/>
+        </customView>
+        <collectionViewItem id="v9a-qu-sOs" userLabel="InnerViewItem" customClass="InnerViewItem" customModule="NSCollectionViewPractice" customModuleProvider="target">
+            <connections>
+                <outlet property="firstDetailLabel" destination="R8z-d3-NIz" id="fot-Wu-owP"/>
+                <outlet property="mainDetailLabel" destination="iU2-ZN-BuY" id="ogh-Vp-giB"/>
+                <outlet property="secondDetailLabel" destination="6qS-xe-yyT" id="oJl-Fj-PIk"/>
+                <outlet property="thumbnail" destination="oBT-WJ-km1" id="d0R-GD-zps"/>
+                <outlet property="titleTextField" destination="xmy-Hr-MDK" id="ny0-zg-pb5"/>
+                <outlet property="view" destination="ozL-JY-LjH" id="v57-Ey-voh"/>
+            </connections>
+        </collectionViewItem>
+    </objects>
+</document>
